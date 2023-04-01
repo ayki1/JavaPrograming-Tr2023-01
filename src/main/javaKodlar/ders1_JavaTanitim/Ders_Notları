@@ -1,0 +1,27 @@
+Ders 1
+Konu: Java Tanıtım-Kurulum
+
+-Kurulum ve ayarlamalar
+    -Java kurulum
+    -IntelliJ IDEA kurulum
+
+-Kodlama hazırlık;
+    1. D Harddiskte "Java Programming" adlı bir klasör oluşturun.
+    2. IntelliJ de ilk Java projenizi bu dizine kaydedin
+        -yeni veya tüm kodlarımız bu alanda kayıtlı olacak
+
+-Dosya uzantıları:
+
+			text file  					.txt
+			PDF files					.pdf
+			Pictures					.jpg, .png
+			word document				.doc
+			excel files					.xlx
+			power point					.ppt
+
+			java files					.java
+
+Görev:
+	1. Create a java project named "JavaPractice" in intelliJ
+	2. create a java project named "ProgrammingLab" in intelliJ
+
