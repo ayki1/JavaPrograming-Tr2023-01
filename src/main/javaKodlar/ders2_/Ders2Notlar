@@ -1,0 +1,62 @@
+Java Day02
+Konu: main method
+		print statement (println() )
+
+Ayarlar penceresi nerede?
+	windows:
+		file -> settings
+
+	Mac:
+		IntelliJ IDEA -> Preference
+
+
+Proje nasıl oluşturulur?
+	File -> new -> Project
+
+
+Mevcut Projeler nasıl açılır?
+	File -> Open recent
+
+
+Dosya ismi nasıl değiştirilir?
+	mouse sağ click -> refactor -> rename
+
+Dosya nasıl silinir?
+	mouse sağ click -> delete
+
+"src" dosyası ne işe yarar:
+    "source"=kaynak anlamındadır, bu kelimenin kısaltmasıdır.
+    Kodlarımızı bu klasör altına ekleriz
+
+"package" dosyası ne işe yarar:
+    "package"= paket anlamındadır
+    java dosyalarını organize bir şekilde depolamak için kullanılır
+
+		mouse sağ click "src" veya "main" dosyasında -> new  -> package
+		paket adı küçük harfle başlar
+
+		CamelCase
+
+
+Java Dosyası:
+		mouse sağ click PACKAGE -> new -> Java Class
+
+		sınıf adı büyük harf ile başlar
+
+		CamelCase
+
+
+kodları biçimlendirmek:
+	windows:
+		ctrl + alt + L
+
+	Mac:
+		Command + Option + L
+
+
+main method nasıl oluşturulur?
+	1. "main" + Enter  ; class parantezinin içinde main yaz Enter'e bas
+
+
+println() nasıl oluşturulur?
+	"sout" + Enter
