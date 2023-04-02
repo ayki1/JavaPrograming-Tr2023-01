@@ -1,6 +1,6 @@
 package ders1_JavaTanitim;
 
-public class kacisDizeleri {
+public class d03_kacisDizeleri {
     public static void main(String[] args) {
 
 /*      Kaçış Karakteri (Escape sequences)

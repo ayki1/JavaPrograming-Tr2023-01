@@ -1,6 +1,6 @@
 package ders1_JavaTanitim;
 
-public class JavaKisayollar {
+public class d02_JavaKisayollar {
     public static void main(String[] args) {
 /*
         Java Kısayolları (Intellij)
