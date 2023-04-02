@@ -3,7 +3,7 @@ package ders1_JavaTanitim;
 public class d02_JavaKisayollar {
     public static void main(String[] args) {
 /*
-        Java Kısayolları (Intellij)
+        JAVA KISAYOLLARI (INTELLIJ) VE KOD YAZMA KURALLARI
 
         1- Kod Ekranı nasıl yakınlaştırılır (zoom) ve uzaklaştırılır
                 -File/Setting/Editor/General --> Mouse Control
@@ -31,17 +31,28 @@ public class d02_JavaKisayollar {
         6- Kodu başlatmak için (RUN yapmak için)
                 - SHIFT + F10
 
+        7- BAZI ZORUNLU KURALLAR
+            1. Class adınız ve dosya adınız aynı olmalıdır
+            2. JAVA'da "{","(","[") her açılış parantezi için "}",")","]" kapatma parantezlerine sahip olmanız gerekir.
+            3. ";" (noktalı virgül) kodunuzun bittiği yerde olması gerekir.
+            4. Kodlarınızı çalıştırmak için "main" method yönteminizin olması gerekir
  */
+
 
         //3- Yorum satırı nasıl yapılır?
         //-her satır için; CRTL + /
         //-çoklu satır için; CRTL + SHIFT + /
 
-        System.out.println("Satır1" );
-        System.out.println("Satır2; Hello World" );
-        System.out.print("Satır3; Merhaba Dünya");
-        System.err.println("Satır4; Merhaba Arkadaşlar");
+        System.out.println("Satır1");
+        System.out.println("Satır2");    // önce yazdır sonra bir sonraki satıra git
+        System.out.print("Satır3");  // CTRL + D , CMND+D
+        System.err.println("Satır4"); //err
 
+        /*System.out.print("Bir");
+        System.out.println("İki");
+        System.out.print("Üç");
+        System.err.println("Hata bildirimi");   //err
+*/
 
     }
 }
