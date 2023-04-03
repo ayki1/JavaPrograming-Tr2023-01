@@ -1,4 +1,4 @@
-package ders1_JavaTanitim;
+package d02_MerhabaDunya;
 
 public class d02_JavaKisayollar {
     public static void main(String[] args) {

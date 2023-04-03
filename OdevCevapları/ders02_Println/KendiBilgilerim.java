@@ -22,6 +22,5 @@ public class KendiBilgilerim {
         System.out.println("En sevdiğim spor: Futbol");
         System.out.println("Hayalimdeki iş: Yazılım Test Uzmanı");
 
-
     }
 }

@@ -1,0 +1,109 @@
+Java Day03
+Konu: println() vs print()
+	  Yorum satırı- Comments
+	  Kaıçış Dizeleri- Escape Sequences
+
+Isınma görevleri:
+	1. PersonalInfo adlı bir sınıf oluşturun ve aşağıdakileri yazdırın:
+                            isim
+                            cinsiyet
+                            doğum tarihi
+                            adres
+                            telefon numarası
+
+
+    2. SagaUcgen adlı bir sınıf oluşturun ve aşağıdaki dik üçgen şeklini yazdırın:
+
+    *
+    * *
+    * * *
+    * * * *
+    * * * * *
+    * * * * * *
+    * * * * * * *
+
+
+ System.err.println(): hata mesajlarını yazdırmak için kullanılır (kırmızı renk)
+
+ System.out.println(): düzenli çıktılar (siyah renk)
+
+
+println() vs print():
+
+		println(): son karakteri yazdırdıktan sonra yeni bir satır ekler
+        print(): son karakteri yazdırdıktan sonra yeni satır EKLEMEZ
+
+
+Yorum satırları:
+
+		tek satır:
+
+		//burası yorum satırı
+
+
+		çoklu yorum:
+					/*
+						yorum satırı 1
+						yorum satırı 2
+						...
+					*/
+
+
+Kaçış sıraları: Escape sequences
+
+    \n: yeni bir satır başlatır
+    \t: paragraf alanı(tab)
+    \\: tek ters eğik çizgi
+    \": çift tırnak
+
+
+Gorev:
+	1. Hakkımda adlı bir sınıf oluşturun bize kendinizden bahsedecek bir program yazın:
+
+    favori müzik
+    favori kitap
+    Favori atasözü
+    favori TV Gösterisi
+
+
+	2. Ucgen adlı bir sınıf oluşturun ve şunu yazdırın:
+
+                    ^
+                   / \
+                  /   \
+                 /     \
+                /       \
+                ---------
+
+	3. Elmas adlı bir sınıf oluşturun ve şunu yazdırın:
+
+                    ^
+                   / \
+                  /   \
+                 /     \
+                /       \
+                ---------
+                \       /
+                 \     /
+                  \   /
+                   \ /
+                    V
+
+   4. Elmas2 adlı bir sınıf oluşturun ve şunu yazdırın:
+
+                    ^
+                   / \
+                  / * \
+                 / * * \
+                / * * * \
+                ---------
+                \ * * * /
+                 \ * * /
+                  \ * /
+                   \ /
+                    V
+
+
+
+
+

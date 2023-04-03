@@ -1,4 +1,4 @@
-package ders1_JavaTanitim;
+package d02_MerhabaDunya;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
@@ -27,7 +27,23 @@ import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 public class MobileTest_OrnekSunum {
-        public AppiumDriver driver;
+/*
+  ETSY.COM ALIŞVERİŞ SİTESİ MOBİL UYGULAMASININ TESTİDİR.
+
+  Etsy APK Test Senaryosu (Test Steps)
+-------------------------
+* Appium Server başlatılır
+* Etsy.com uygulaması (APK) açılır
+* Mevcut Google mail hesabı ile girişi yapılır
+* Bir ürün ismi aratılır. (örnek=Wooden Spoon)
+* Arama sonucunda ilk ürün seçilir
+* Ekran yukarı kaydırma yapılır ve ürünün detayları gösterilir
+* Ürün sepete eklenir
+* Sepet görüntülenir
+* Ekran resmi çekilir.
+ */
+
+    public AppiumDriver driver;
         public WebDriverWait wait;
         String searchProductName=" wooden spoon cutlery 5";
         @Before
@@ -129,7 +145,7 @@ public class MobileTest_OrnekSunum {
         }
         @After
         public void tearDown() throws IOException {
-            // SON EKRANIN RESMİ AL
+        // SON EKRANIN RESMİNİ AL
             File srcFile=((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
             FileUtils.copyFile(srcFile, new File("LastScreenPict.jpg"));
 

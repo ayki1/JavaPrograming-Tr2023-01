@@ -1,4 +1,4 @@
-package ders1_JavaTanitim;
+package d03_KacisDizeleri;
 
 public class d03_KacisDizeleri {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package ders1_JavaTanitim;
+package d01_JavaTanitim;
 
 public class d01_HelloPage {
     public static void main( String[] args ){
