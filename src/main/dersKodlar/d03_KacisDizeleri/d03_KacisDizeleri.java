@@ -16,9 +16,12 @@ public class d03_KacisDizeleri {
         System.out.println("Programlama dili olarak \"Java\" çok kullanılır.");
         System.out.println("İstanbul\\Üsküdar");
 
-
+ /*     System.out.println("Java \nPython \nC#");
+        System.out.println("--------------------------------------------------------");
+        System.out.println("Merhaba Arkadaşlar \nBugün nasılsınız? \nSizi yeniden görmek çok güzel! \nHaftaya hangi ders var?");
+*/
     //örnek-2
-//        System.out.println("Java'yı\töğrenmek\n\tiçin\nçok\tçalışmalısın!\n\n"); //
+//        System.out.println("\tJava'yı\töğrenmek\n\tiçin\nçok\tçalışmalısın!\n\n"); //
 //        System.out.println("\tÖğrenmenin \"EN İYİ\" yolu \n\t\t pratik yapmaktır... \\\\");
 
 

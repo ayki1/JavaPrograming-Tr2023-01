@@ -60,10 +60,9 @@ Kaçış sıraları: Escape sequences
 Gorev:
 	1. Hakkımda adlı bir sınıf oluşturun bize kendinizden bahsedecek bir program yazın:
 
-    favori müzik
-    favori kitap
-    Favori atasözü
-    favori TV Gösterisi
+            En sevdiğim müzik
+            En sevdiğim kitap
+            En sevdiğim atasözü
 
 
 	2. Ucgen adlı bir sınıf oluşturun ve şunu yazdırın:
@@ -75,35 +74,22 @@ Gorev:
                 /       \
                 ---------
 
-	3. Elmas adlı bir sınıf oluşturun ve şunu yazdırın:
+	3. MarketFisi adlı bir sınıf oluşturun ve şunu yazdırın:
 
-                    ^
-                   / \
-                  /   \
-                 /     \
-                /       \
-                ---------
-                \       /
-                 \     /
-                  \   /
-                   \ /
-                    V
+            CAN MARKET
+         04.03.2023     19:11
 
-   4. Elmas2 adlı bir sınıf oluşturun ve şunu yazdırın:
+         Su 0,5Lt:      2,50TL
+         Çizi Bisküvi:  6,50TL
 
-                    ^
-                   / \
-                  / * \
-                 / * * \
-                / * * * \
-                ---------
-                \ * * * /
-                 \ * * /
-                  \ * /
-                   \ /
-                    V
+            Toplam:     9,00TL
 
+    4. DikUcgen adlı bir sınıf oluşturun ve şunu yazdırın:
 
-
-
-
+        *
+        * *
+        * * *
+        * * * *
+        * * * * *
+        * * * * * *
+        * * * * * * *
