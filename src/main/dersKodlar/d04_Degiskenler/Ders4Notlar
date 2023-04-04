@@ -1,0 +1,94 @@
+Day04
+Konular: Değişkenler
+            Veri Türleri
+            String
+
+
+İlkel Veri Türleri:
+
+sayısal değişkenler:
+        double > float > long > int > short > byte
+
+
+değişkenler:
+
+int: tamsayılar için            :25
+double: ondalık sayılar için    :12,45
+char: tek karakterler için ''   :'B'
+boolean: doğru/yanlış           :true
+
+Byte: Bellek üzerinde 1 byte yer kaplar. Tamsayı türünde -128 ile 127 arasında değerler alır.
+Short: 16 bittir. Byte tipinde tanımlanan sayılardan daha büyük sayılar tanımlanabilir. -32768 ile 32767 arasında değerler tanımlanabilir.
+Integer (int): En fazla kullanılan veri tipidir. Bellekte 4 Byte yer kaplar ve 32 bittir. -2,147,483,648 ile 2,147,483,647 (-2³¹ ile 2³¹-1) arasında değerler tanımlanabilir.
+Long: Uzunluğu 64 bittir. Tamsayı türünde -2⁶³ ile 2⁶³-1 arasında değerler tanımlanabilir.
+Float: Uzunluğu 32 bittir. Ondalık sayı türünde -3.4*10³⁸ ile 3.4*10³⁸ arasında değerler alır.
+Double: Uzunluğu 64 bittir. Ondalık sayı türünde -1.7*10³⁰⁸ ile 1.7*10³⁰⁸ arasında değerler alır.
+Char: Veri tipinin uzunluğu 16 bittir. Karakter türünde değerler alır. Tanımlama yapılırken yalnız bir rakam, işaret veya harf kullanılabilir. Yapılan tanımlama işlemleri tek tırnak arasında yapılmalıdır.
+Boolean: Diğer değişkenlerden daha farklı olarak sadece 2 değer alır. Bu değerler true veya false’dir. Bellekte bir bit yer kaplar. Mantıksal tipler olarak da bilinir.
+
+
+String: karakter dizisi (metin dizisi), ""
+
+değişken adlandırma kuralları:
+1. Benzersiz OLMALIDIR
+2. camelCase
+3. Rakamlarla başlayamaz
+4. küçük harflerle başlar
+5. Java Ayrılmış kelimeler olamaz
+6. _ ve $ dışında özel karakterler olamaz
+7. okunabilir, anlaşılır
+
+
+Değişken isimleri nasıl değiştirilir?
+1. Ctrl (Komut) + R
+2. eski değişken adını yazın
+3. yeni değişken adını yazın
+4. Tümünü Değiştir'e tıklayın
+
+
+Görev:
+1. Kare adında bir sınıf oluşturun, herhangi bir karenin alanını ve
+çevresini hesaplayan bir program yazın.
+
+    alan = kenar * kenar;
+    çevre = 4 * kenar
+
+2. Dikdörtgen adında bir sınıf oluşturun, herhangi bir Dikdörtgenin
+alanını ve çevresini hesaplayan bir program yazın.
+
+    uzunluk
+    Genişlik
+
+    alan = uzunluk * genişlik
+    çevre = 2 * (uzunluk + genişlik)
+
+3. Çember adında bir sınıf oluşturun, verilen herhangi bir
+Çember'in alanını ve çevresini hesaplayabilen bir program yazın.
+
+    PI, yarıçap, çap, alan, çevre
+
+    İpuçları: PI = 3.14
+    alan = yarıçap * yarıçap * PI
+    Çevre = 2 * yarıçap * PI
+
+4. KilogramiPoundaCevir adlı bir sınıf oluşturun, kg'ı (int) pound'a (double)
+    çevirebilen bir program yazın.
+    İpuçları: 1 kg = 2,2 pound
+
+5. GalonuLitreyeCevir adlı bir sınıf oluşturun, galonu (int) çöpe (double)
+    çevirebilen bir program yazın.
+    İpuçları: 1 galon = 3,79 litre
+    1000
+    10000
+
+6. ÇalışanBilgisi adlı bir sınıf oluşturun. aşağıdaki değişkenleri bildirin:
+    1. ad (String)
+    2. yaş (int)
+    3. cinsiyet (char)
+    4. şirket (String)
+    5. işBaşlığı (String)
+    6. yılDeneyim (double)
+    7. maaş (int)
+    8. Tam zamanlı çalışırmı (boolean)
+    9. Evli (boolean)
+    10. çalışan kimliği (String)
