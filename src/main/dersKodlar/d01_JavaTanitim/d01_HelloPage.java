@@ -11,5 +11,11 @@ public class d01_HelloPage {
         int DegiskeninAdi_2 = 100;
         String DegiskeninAdi_3 = "Veri";
 
+
+        String mesaj;
+        mesaj="Merhaba Dünya";
+
+        String yasiniz ="34";
+
     }
 }

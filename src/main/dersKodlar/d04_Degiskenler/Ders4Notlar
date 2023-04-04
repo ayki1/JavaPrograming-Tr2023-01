@@ -10,7 +10,7 @@ sayısal değişkenler:
         double > float > long > int > short > byte
 
 
-değişkenler:
+Değişkenler:
 
 int: tamsayılar için            :25
 double: ondalık sayılar için    :12,45
@@ -65,11 +65,14 @@ alanını ve çevresini hesaplayan bir program yazın.
 3. Çember adında bir sınıf oluşturun, verilen herhangi bir
 Çember'in alanını ve çevresini hesaplayabilen bir program yazın.
 
-    PI, yarıçap, çap, alan, çevre
+    Pi sayısı, yarıçap, çap, alan, çevre
 
     İpuçları: PI = 3.14
-    alan = yarıçap * yarıçap * PI
-    Çevre = 2 * yarıçap * PI
+    yaricap = 5.5;
+
+    alan = yarıçap * yarıçap * PI; // dairenin alanını bulur
+    Çevre = çap * PI;  // dairenin çevresini bulur
+
 
 4. KilogramiPoundaCevir adlı bir sınıf oluşturun, kg'ı (int) pound'a (double)
     çevirebilen bir program yazın.

@@ -15,7 +15,7 @@ public class d1_Degiskenler_Variables {
         String soyad="BİRAND";
         long kimlikNo=1234567891;
 
-   */
+
         /*double isim;
         int isim1;
         long $isim;
@@ -26,7 +26,9 @@ public class d1_Degiskenler_Variables {
         double 1isim;
         int *isim1;
         short yasi20@olanlar;
-        byte ev Adresi; */
+        byte ev Adresi;
+
+         */
 
 
         //Değişkenler:
