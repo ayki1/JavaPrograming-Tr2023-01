@@ -1,0 +1,22 @@
+1. Telefon Numarası adlı bir sınıf oluşturun ve aşağıdaki değişkenleri bildirin:
+            ülkeKodu, ilKodu, yerelKod
+
+            telefon numarasını görüntülemek için dize birleştirme kullanın
+
+            örnek:
+                ülkeKodu = 9 ise
+                    ilKodu = 0312
+                    yerelKod = 4512625
+
+                çıktı:
+                    +9(0312)-4512625
+
+2. UcakBileti adında bir sınıf oluşturun ve aşağıdaki değişkenleri bildirin:
+                1. nerden
+                2. nereye
+                3. bilet fiyatı
+
+    biletin tüm bilgilerini görüntülemek için birleştirme kullanın
+
+    örnek:
+            İstanbul'dan Ankara'ya 765 TL

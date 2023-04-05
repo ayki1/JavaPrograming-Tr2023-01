@@ -1,0 +1,28 @@
+Gün 06:
+Konular: İlkel Tip Dökümler
+         Aritmetik operatörler
+
+
+
+Isınma görevleri
+1. DogumGünü adlı bir sınıf oluşturun ve aşağıdaki değişkeni oluşturun
+ad, doğumGünü(int), doğumAyı(String), doğumYılı(int)
+
+kişinin doğum gününü görüntülemek için birleştirme kullanın
+
+isim = "Demet" ise
+doğum günü = 25
+doğumAyı = "Nisan"
+doğum Yılı = 1995;
+
+çıktı:
+Demet 25 Nisan 1995'te doğdu.
+
+
+İlkel-primitive:
+
+    double > float > long > int > short > byte
+
+-daha küçük ilkel öğeler doğrudan daha büyük ilkel türe atanabilir
+daha büyük primitive'ler doğrudan daha küçük ilkel türlere
+ATANMAZ (manuel olarak kullanılması gerekir)

@@ -46,7 +46,7 @@ Değişken isimleri nasıl değiştirilir?
 4. Tümünü Değiştir'e tıklayın
 
 
-Görev:
+Görevler:
 1. Kare adında bir sınıf oluşturun, herhangi bir karenin alanını ve
 çevresini hesaplayan bir program yazın.
 
@@ -76,22 +76,22 @@ alanını ve çevresini hesaplayan bir program yazın.
 
 4. KilogramiPoundaCevir adlı bir sınıf oluşturun, kg'ı (int) pound'a (double)
     çevirebilen bir program yazın.
-    İpuçları: 1 kg = 2,2 pound
+    İpuçları: 1 kg = 2,2 pound (libre)
 
-5. GalonuLitreyeCevir adlı bir sınıf oluşturun, galonu (int) çöpe (double)
+5. GalonuLitreyeCevir adlı bir sınıf oluşturun, galonu (int) litreye (double)
     çevirebilen bir program yazın.
     İpuçları: 1 galon = 3,79 litre
     1000
     10000
 
 6. ÇalışanBilgisi adlı bir sınıf oluşturun. aşağıdaki değişkenleri bildirin:
-    1. ad (String)
-    2. yaş (int)
-    3. cinsiyet (char)
-    4. şirket (String)
-    5. işBaşlığı (String)
-    6. yılDeneyim (double)
-    7. maaş (int)
-    8. Tam zamanlı çalışırmı (boolean)
-    9. Evli (boolean)
-    10. çalışan kimliği (String)
+            1. ad (String)
+            2. yaş (int)
+            3. cinsiyet (char)
+            4. şirket (String)
+            5. isinAdi (String)
+            6. deneyimSuresi (double)
+            7. maaş (int)
+            8. Tam zamanlı çalışırmı (boolean)
+            9. Evli (boolean)
+            10. personel no (String)

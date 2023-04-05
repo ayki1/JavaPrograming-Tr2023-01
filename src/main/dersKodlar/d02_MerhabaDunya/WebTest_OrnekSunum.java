@@ -8,6 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class WebTest_OrnekSunum {
     public static void main(String[] args) throws InterruptedException {
+
         WebDriverManager.chromedriver().setup();
         WebDriver driver=new ChromeDriver();
         driver.manage().window().maximize();

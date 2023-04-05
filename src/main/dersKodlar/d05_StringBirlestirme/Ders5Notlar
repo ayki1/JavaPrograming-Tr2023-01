@@ -1,0 +1,56 @@
+Java Day05
+Konular: birden çok değişken bildirmek
+         birleştirme
+
+
+Isınma görevleri:
+
+1. Degisken_Deneme adlı bir sınıf oluşturun ve aşağıdaki değişkenleri tanımlayın:
+                            sayı1 = 100;
+                            sayı2 = 10000;
+                            sayı3 = 3,5;
+                            sayı4 = 2.5f;
+                            sayı5 = 999999999999L;
+                            sayı6 = 850000;
+
+                yukarıdaki değişkenlerin her birini konsolda yazdır
+
+2. OgrenciBilgi adlı bir sınıf oluşturun ve aşağıdakiler için değişkenler bildirin:
+    1. öğrenci adı (String)
+    2. yaş (int)
+    3. cinsiyet (char)
+    4. okul adı (String)
+    5. telefon numarası (String) (###)-###-####
+    6. tam zamanlı (boolean)
+
+
+
+değişken bildirmek:
+		veriTipi  degiskenAdi = veri;
+		    int     yasiniz   = 24;
+
+primitives-ilkel:
+	int: tam sayılar
+	double: ondalık sayılar
+	char: tek karakter. ''
+	boolean: doğru/yanlış;   true/false
+
+	double > float > long > int > short > byte
+
+none primitive:
+	String: string of text. ""
+
+
+soutv; tanımlı değişkeni çıktı almak için
+
+Toplama işlemi: +
+
+	   sayı +  sayı ==> sonuc
+	 	1   +    2  ==> 3
+
+
+Birleştirme-Concatenation: +
+
+		String + Veri
+		Veri   + String
+		String + String
