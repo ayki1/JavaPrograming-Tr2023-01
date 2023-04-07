@@ -1,0 +1,114 @@
+Java Ders08:
+Konular: Özet
+        Mantıksal Operatörler (&&, ||, !)
+        If İfadeleri:
+            tekli if
+
+Isınma görevi:
+1. TanımlamaNumarası adında bir sınıf oluşturun ve verilen sayının pozitif mi,
+negatif mi yoksa sıfır mı olduğunu tanımlayabilen bir program yazın.
+
+örnek:
+sayı = 200
+
+çıktı:
+200 pozitif sayıdır: true
+200 negatif sayıdır: false
+200 sıfırdır: false
+
+2. EvenlyDivisible adında bir sınıf oluşturun ve bir sayının
+2, 3, 5 ile tam olarak bölünüp bölünmediğini kontrol edebilen bir program yazın.
+    örnek:
+sayı = 65;
+
+çıktı:
+65 2 ile bölünebilir: yanlış
+65 3'e bölünebilir: yanlış
+65 5'e bölünebilir: doğru
+
+
+
+Değişkenler: Container for Data, verileri yeniden kullanılabilir hale getirir
+
+İlan etmek:
+DataType DeğişkenAdı = Veri;
+
+Veri tipleri:
+int: tamsayılar için
+double: ondalık sayılar için
+char: tek karakterler için, '', her karakterin bir numarası vardır
+boolean: doğru/yanlış
+
+Dize: Metin dizisi, ""
+
+
+Birleştirme: Bir değeri (herhangi bir tür) String'e birleştirme, +
+
+
+
+
+11:20'de geri gel
+Değişkenler kısa Quiz saat 11:45'e kadar duye
+
+
+Operatörler:
+-, +, *, /, %
+--, ++
+=, +=, -=
+>, >=, <, <=, ==, !=
+
+&&, ||, !
+
+
+&&: ikisi birden
+mantıksal ve işleçte, doğru döndürmek için her iki ifadenin de doğru olması gerekir
+
+||: ikisi de
+mantıksal veya işleçte, doğru döndürmek için yalnızca bir ifadenin doğru olması gerekir
+
+
+
+
+if ifadeleri:
+Tek if: 1 olası çıktı için sınıflandırma oluşturmak için kullanılabilir
+
+
+Görev
+1. Ayın adını görüntüleyebilen bir program yazınız.
+
+sayı = 1 ~ 12
+
+2. günün adını gösterebilen bir program yazınız.
+
+sayı = 1 ~ 7
+
+3. Bir aydaki gün sayısını yazdırabilen bir program yazınız.
+
+Eski:
+sayı = 1 ~ 12;
+
+çıktı:
+31 Gün
+
+
+İpuçları:
+31 gün olan aylar: 1, 3, 5, 7, 8, 10, 12
+30 gün olan aylar: 4, 6, 9, 11
+28 gün olan ay: 2
+
+
+
+Yarın:
+1. eğer & başka
+2. çok şubeli ise
+
+Perşembe: KAPALI
+
+Cuma:
+1. İç içe if & üçlüler
+2. Özetler
+
+
+Pazartesi:
+Anahtar
+Tarayıcı

@@ -1,0 +1,93 @@
+Günü 07:
+Konu: Operatörler
+Aritmetik Operatörler (%) ------- Tamamlandı
+Birli Operatörler (+, -, ++, --) ------- Bitti
+
+Kısa gösterim Operatörler (=, +=, -=, *=, /=, %=)
+İlişkisel Operatörler (>, <, >=, <=, ==, !=)
+
+
+Paket adı: day07_Operators
+
+Isınma görevleri:
+1. Dökümler adlı bir sınıf oluşturun
+    1.1, averajScore adında bir float değişkeni bildiririn ve onu 20.5 olarak başlatın
+    1.2 aşağıdaki değişkenleri bildirin ve bunların her birine averajScore atayın:
+                             byte num1;
+                             short num2;
+                             int num3;
+                             long num4;
+                             float num5
+                             double num6;
+
+
+Şimdiye kadar öğrendiklerimiz:
+1. main method
+2. print() & println()
+3. kaçış dizileri
+4. ilkel öğeler ve String değişkenleri
+5. Birleştirme
+6. Dökümler (açık)
+
+
+
+
+Aritmetik operatörler:
+20 / 6 = 3
+20.0 / 6 = 3.333....
+
+10/2 = 5
+10/3 = 3,3333...
+
+kalan = pay -(payda * tamsayı sonuç)
+10 - (3 * 3) = 1
+
+1/3 = 0,3333...
+
+%10 3 ==> 1
+
+45 / 8 = 5.625
+
+45 - (8 * 5 ) = 5
+
+
+%45 8 ===> 5
+
+
+%100 15 ==> 10
+
+100 / 15 = 6.66.....
+100 - (15 * 6) = 10
+
+
+Birli Operatörler:
+++: değeri 1 artırın.
+-- : değeri 1 azaltır.
+
+Sonrası - Öncesi:
+öne ekleme : değeri hemen değiştirir
+++ a
+-- a
+
+Sona ekleme: ikinci adımdaki değeri değiştirir.
+a ++
+a --
+
+
+int x = 100;
+
+x = 200
+
+String str = "Java";
+
+str += "Programlama";
+
+int a = 400;
+
+a += 300;
+
+Operatörler:
++, -, *, /, %
+++, --
+=, +=, -=
+>, <, >=, <=, ==, !=

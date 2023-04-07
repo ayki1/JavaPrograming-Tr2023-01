@@ -24,5 +24,5 @@ Demet 25 Nisan 1995'te doğdu.
     double > float > long > int > short > byte
 
 -daha küçük ilkel öğeler doğrudan daha büyük ilkel türe atanabilir
-daha büyük primitive'ler doğrudan daha küçük ilkel türlere
-ATANMAZ (manuel olarak kullanılması gerekir)
+daha büyük primitive'ler doğrudan daha küçük ilkel türlere ATANMAZ
+(manuel olarak kullanılması gerekir)
