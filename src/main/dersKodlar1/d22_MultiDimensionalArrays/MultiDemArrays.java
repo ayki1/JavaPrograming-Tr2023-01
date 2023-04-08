@@ -1,4 +1,4 @@
-package d20_Arrays;
+package d22_MultiDimensionalArrays;
 
 public class MultiDemArrays {
     public static void main(String[] args) {

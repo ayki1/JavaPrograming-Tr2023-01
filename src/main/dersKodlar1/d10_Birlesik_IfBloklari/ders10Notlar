@@ -1,0 +1,28 @@
+Ders 10
+Konular: Nested If
+        ayraçsız If
+        üçlüler
+
+
+If İfadeleri: koşullu ifadeler için kullanılır. koşul doğruysa, blok yürütülür
+
+tekli If: bir koşul için
+if(Koşul)
+
+if & else: YALNIZCA 2 koşul için
+else{
+
+}
+
+çok şubeli if: 3 veya daha fazla koşul için
+else if (Koşul)
+
+iç içe ise: Ön koşul
+
+
+Üçlüler: if ifadesinin kısayolu
+
+
+ if: (Koşul)?
+ else:      :
+ else if: :( Koşul)?

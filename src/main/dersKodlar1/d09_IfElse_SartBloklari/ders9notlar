@@ -1,0 +1,92 @@
+Java Ders 09
+Konular: If & Else durumu
+            Çoklu If
+
+
+Isınma görevleri:
+1. MinNumber adlı bir sınıf oluşturun, iki sayı arasındaki
+minimum sayıyı yazdırabilen bir program yazın, eğer ikisi de eşitse,
+ardından Eşit yazdırın.
+
+ornek
+n1= 100, n2 = 200;
+
+çıktı:
+100 minimum sayıdır
+
+
+n1 & n2
+
+olasılık #1: n1 Min'dir
+olasılık #2: n2 Min'dir
+olasılık #3: eşit
+
+
+2. MedyanSayı adlı bir sınıf oluşturun. Verilen üç FARKLI tamsayı arasındaki medyan
+sayıyı bulan bir program yazınız.
+
+örnek;
+a = 10, b= 15, c = 20;
+
+Çıktı:
+15 medyan sayıdır
+
+
+1. olasılık: a medyan bir sayı olabilir
+2. olasılık: b medyan sayı olabilir
+3. olasılık: c medyan sayı olabilir
+
+
+
+
+Tek if: bir koşul için
+
+
+if & else: yalnızca iki seçenek/olasılık olduğunda (en fazla değil, 2 koşuldan az değil)
+
+
+if(Koşul){BildirimA
+}else{// başka türlü
+BildirimB
+}
+
+İfadeA: koşul doğru OLMALI
+İfadeB: koşul yanlış OLMALI
+
+
+Evet veya hayır
+artık yıl
+Kadın veya erkek
+Başarılı veya Başarısız
+Evli veya Evli değil
+çalışan veya çalışan olmayan
+Tek veya çift
+Uygun veya uygun değil
+
+
+Çoklu if: üç veya daha fazla seçenek/olasılık olduğunda
+
+eğer(Koşul1){
+BildirimA
+}else if(Koşul2){
+BildirimB
+}else{
+AçıklamaC
+}
+
+SADECE bir blok yürütülür
+
+İfadeA: Koşul1 doğru OLMALIDIR
+İfadeB: Koşul1 yanlış OLMALIDIR, Koşul2 doğru OLMALIDIR
+İfadeC: Koşul1 ve Koşul2 yanlış OLMALIDIR
+
+
+görev:
+1. İki farklı sayı arasındaki maksimum sayı
+2. İki farklı sayı arasındaki minimum sayı
+3. Kişinin alkol almaya uygun olup olmadığını kontrol edebilen bir program yazın.(18 yaş üstü uygun)
+4. Kişinin oy kullanmaya uygun olup olmadığını kontrol edebilen bir program yazın.(18 yaş üstü uygun)
+
+Görev:
+1. sınav sonucu ==> A, B, C, D, F
+2. ayın adı nedir

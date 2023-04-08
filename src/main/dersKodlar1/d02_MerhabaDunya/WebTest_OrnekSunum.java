@@ -11,18 +11,19 @@ import java.util.List;
 public class WebTest_OrnekSunum {
     public static void main(String[] args) throws InterruptedException {
 
+    //*** AMAZON WEB SİTESİNDE ÜRÜN FİYATINI AL ****
+        String aranacakUrunAdi="iphone 13 512 gb";
+
+    //CHROME TARAYICI AYARLAMA
         WebDriverManager.chromedriver().setup();
         WebDriver driver=new ChromeDriver();
         driver.manage().window().maximize();
-
-    //AMAZON WEB SİTESİNDE ÜRÜN FİYATINI AL
-        String aranacakUrunAdi="iphone 13 512 gb";
 
     //AMAZON WEB SİTESİNİ AÇ
         driver.get("https://www.amazon.com.tr/");
         Thread.sleep(3000);
 
-    //ÇEREZLERİ KABUL ET
+    //ÇEREZLERİ KABUL ET BUTONU TIKLA-VARSA
 
         WebElement cerezKabuletButon= driver.findElement(By.id("sp-cc-accept"));
         if (cerezKabuletButon.isDisplayed()) {

@@ -1,0 +1,86 @@
+Ders 11
+Konular: Switch Statement
+         Scanner Girişi
+
+
+Isınma Görevleri:
+1. Tarayıcı adında bir sınıf oluşturun. Seçilen tarayıcının adını
+    görüntüleyebilen bir program yazınız.
+1. browserName adlı bir String değişkeni tanımlayın
+2. Geçerli tarayıcıların: chrome, firefox, opera, safari, edge olduğunu varsayalım
+3. Tarayıcı adı, geçerli tarayıcı adlarıyla uyuşmuyorsa,
+çıktı şöyle olmalıdır: Geçersiz Tarayıcı Adı
+
+örnek
+String tarayıcı = "krom";
+
+Çıktı:
+Chrome Tarayıcı seçili
+
+Not: Bu durumda nested if kullanmak ZORUNLUDUR
+
+
+2. 0~9 arasındaki sayıları kelimelere çevirebilen bir program yazın.
+
+NOT: üçlü KULLANMALIDIR
+
+
+Switch Statement: switch, case, default, break
+
+   switch formatı:
+
+		switch(Data){
+
+			case data1:
+					Statements;
+					break;
+
+			case data2:
+					Statements;
+					break;
+
+			default:
+					Statements;
+					break;
+		}
+
+
+
+
+Veri değeri, anahtarın veri türü BENZERSİZ olmalı
+
+Switch verisi= long, float, double ve boolean veri türleri olamaz
+
+break: switch'ten çıkmak için kullanılır.
+break deyimini vermezsek, switch deyimi sonraki blokları yürütmeye devam eder.
+
+vaka bloklarından hiçbiri eşleşmezse varsayılan blok yürütülür.
+yalnızca bir varsayılan blok olabilir
+
+veya mantığı arka arkaya case blokları bildirerek switch içinde kullanabiliriz.
+
+
+
+Görev:
+1. Ayın Adı (1~12)
+2. Sayıdan Kelimeye (0~9)
+3. grade adlı bir char değişkeni verilir. aşağıdaki mesajları yazdırmak için switch deyimini kullanın:
+"A": mükemmel
+'B': güzel
+'C': iyi
+'D': geçti
+'F': başarısız
+aksi halde: geçersiz
+
+
+4. Gün Sayısı
+28 Gün: 2
+30 gün: 4, 6, 9, 11
+31 gün: 1, 3, 5, 7, 8, 10, 12
+
+if(1~12){
+
+
+}else{
+Geçersiz
+}

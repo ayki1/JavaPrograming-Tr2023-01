@@ -1,0 +1,58 @@
+Java Ders 13
+Konu: String Sınıfına Giriş
+
+ısınma görevleri:
+1. MyInfo adlı bir sınıf oluşturun. Kullanıcıdan şunları
+    isteyebilecek bir program yazın:
+
+1. Yaşınızı girin (int)
+2. Cinsiyetinizi girin (String- YALNIZCA Tek harf)
+3. Ad soyad girin (String- Birden çok kelime)
+4. Telefon numaranızı girin (long)
+5. Posta kodunuzu (int) girin
+6. Okul adınızı girin (String - Birden Çok Kelime Olabilir)
+7. Şehir adınızı girin (String - Birden Çok Kelime Olabilir)
+8. Bina numaranızı girin (int)
+9. Sokak adınızı girin
+
+KULLANICININ TÜM GİRİŞLERİ GİREBİLDİĞİNDEN EMİN OLUN
+
+Kullanıcının girdiği tüm girişleri aşağıdaki sırayla ayrı satırlarda görüntüleyin:
+
+1. ad soyad
+2. yaş
+3. cinsiyet
+4. telefon numarası
+5. adres:
+binaNumara, Sokağı,
+Şehir (*): Posta kodu
+6. okul adı
+
+
+String: : "java.lang" paketinde sunulur
+
+"Java.lang" paketindeki herhangi bir sınıf dolaylı olarak içe aktarılabilir
+
+
+Dizin Numaraları: sıfırdan başlar
+
+"Konya"
+01234
+
+"Java"
+
+String Yöntemleri:
+
+charAt(index): verilen dizindeki karakteri döndürür, char'ı döndürür
+
+length(): toplam karakter sayısını döndürür. int döndürür
+
+
+
+Görev:
+ilk:
+firstName = "Cenk";
+soyadı = "Tosun";
+
+çıktı:
+TS

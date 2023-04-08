@@ -1,0 +1,77 @@
+Java Ders14
+Konu: String
+
+
+String sınıfı: "java.lang" paketinde sunulur
+"java.lang" paketindeki herhangi bir sınıf dolaylı olarak içe aktarılacaktır.
+
+1. Object=nesne.
+	Nesneleri oluşturmanın 2 yolu:
+
+1. String sabit değeri:
+String str1 = "Apple";
+String s = "Apple"; str1 == s ==> doğru
+
+tüm String sabit değerleri, dize havuzunda depolanacak
+
+2. new anahtar sözcüğü ile: String str2 = new String("Apple"); str2 == str1 ==> yanlış
+String str3 = new String("Apple"); str2 == str3 ==> yanlış
+
+yığında yeni farklı nesne oluşturulacak
+
+
+
+2. Karakter dizileri
+dizideki her karakterin dizin numarası (0'dan başlar) adı verilen temsili numarası vardır.
+
+"Derya"
+01234
+
+
+3. Değiştirilemez, nesne oluşturulduktan sonra değiştirilemez
+
+String str= "İzmir";
+str = str.toUpperCase(); //"İZMİR"
+
+
+String Yöntemleri:
+charAt(index): verilen dizindeki karakteri döndürür, char'ı döndürür
+String s = "Python"
+s.charAt(3) ==> 'h'
+
+
+length(): toplam karakter sayısını döndürür, int değerini döndürür
+
+son dizin: length() -1
+
+
+toLowerCase(): String'i küçük harfe döndürür
+
+toUpperCase(): String'i büyük harfe döndürür
+
+trim(): boşluklar (kullanılmayan boşluklar) olmadan yeni Dize döndürür
+
+indexOf(str): ilk oluşan karakterin indeks numarasını döndürür. int döndürür
+
+lastIndexOf(str): Son oluşan karakterin dizin numarasını döndürür. int döndürür
+
+replace(oldValue, newValue): Tüm eski değerleri verilen yeni değerle değiştirerek yeni dize döndürür.
+
+replaceFirst(oldValue, newValue): FIRST eşleşen eski değerleri verilen
+yeni değerle değiştirerek yeni dize döndürür.
+
+substring(beginningIndex ,ENDIndex): verilen başlangıç ​​dizininden başlayarak
+verilen edning dizinine kadar alt dize oluşturur (bitiş dizini hariçtir)
+
+String str ="Fatih Sultan Mehmet";
+str.substring(0,  4+1) ==> Fatih
+
+substring(beginningIndex): verilen başlangıç ​​dizininden başlayarak dizenin sonuna kadar alt dize oluşturur
+
+String str = "Fatih Sultan Mehmet";
+str.substring(6) ==> Sultan
+
+repeat(count): diziyi verilen sayıda tekrarlar. dize döndürür
+
+
+equals(): iki dizenin aynı metne sahip olup olmadığını kontrol eder, boolean döndürür
