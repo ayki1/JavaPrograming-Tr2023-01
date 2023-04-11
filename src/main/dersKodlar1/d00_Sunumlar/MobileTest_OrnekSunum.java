@@ -1,4 +1,4 @@
-package d02_MerhabaDunya;
+package d00_Sunumlar;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;

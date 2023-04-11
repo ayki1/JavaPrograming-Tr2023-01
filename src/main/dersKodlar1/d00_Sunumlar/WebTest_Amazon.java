@@ -1,4 +1,4 @@
-package d02_MerhabaDunya;
+package d00_Sunumlar;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
@@ -6,9 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import java.util.List;
-
-public class WebTest_OrnekSunum {
+public class WebTest_Amazon {
     public static void main(String[] args) throws InterruptedException {
 
     //*** AMAZON WEB SİTESİNDE ÜRÜN FİYATINI AL ****
@@ -37,6 +35,11 @@ public class WebTest_OrnekSunum {
         driver.findElement(By.id("twotabsearchtextbox")).sendKeys(aranacakUrunAdi);
         driver.findElement(By.id("nav-search-submit-button")).click();
         Thread.sleep(2000);
+        
+    //KAÇ ÜRÜN VAR ONU YAZDIR
+        WebElement urunSayisi=driver.findElement(By.xpath("//div[@class='a-section a-spacing-small a-spacing-top-small']"));
+        //System.out.println("urunSayisi.getAttribute() = " + urunSayisi.getAttribute());
+        System.out.println("Arama Sonucu Ürün Sayısı= " + urunSayisi.getText());
 
     //ÜRÜNLERİN FİYATLARINI YAZDIR
         WebElement fiyatListesi=driver.findElement(By.className("a-price-whole"));
@@ -46,14 +49,16 @@ public class WebTest_OrnekSunum {
             //System.out.println("fiyatListesi = " + fiyatListesi.getText());
         }
 
-        WebElement[] fiyatListesi2=new WebElement[100];
+       /*WebElement[] fiyatListesi2=new WebElement[100];
           driver.findElements(By.xpath("a-price-whole"));
         for (int i = 0; i < fiyatListesi2.length; i++) {
             i++;
             System.out.println("allDates = " + fiyatListesi2[i]);
         }
+        int urunsayısı=fiyatListesi2.length;
+        System.out.println("urunsayısı = " + urunsayısı);*/
 
-    /*//ARAMA SONUCU İLK ÜRÜNÜ TIKLA
+    //ARAMA SONUCU İLK ÜRÜNÜ TIKLA
 
         WebElement ilkUrun=driver.findElement(By.className("a-price-whole"));
         ilkUrun.click();
@@ -65,11 +70,12 @@ public class WebTest_OrnekSunum {
 
         System.out.println("ÜRÜN ADI = " + urunAdi.getText());
         System.out.println("ÜRÜN FİYATI = " + urunFiyati.getText()+","+kurusFiyati.getText()+" TL");
+        System.out.println("Ürün Web Linki = " + driver.getCurrentUrl());
         Thread.sleep(3000);
 
-*/
+
    //SAYFAYI KAPAT
-        driver.quit();
+        //driver.quit();
 
     }
 }
